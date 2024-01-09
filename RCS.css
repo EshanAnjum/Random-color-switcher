@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box
+{
+   
+    width: 30rem;
+    background-color: white;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+button#ClickMe
+{
+    font-size: 38px;
+    display: block;
+    width: 100%;
+    /* background-color: black; */
+    /* color: white; */
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+body
+{
+   transition: 0.5s;
+}
